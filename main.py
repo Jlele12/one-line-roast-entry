@@ -4,8 +4,8 @@ import os
 # The entry is a single line, 1-200 characters, written to /output/entry.txt.
 
 LINE = (
-    "My wireless earbuds can survive a firmware update, a rainstorm and the "
-    "washing machine, but not the 40 seconds it takes me to walk to the kitchen."
+    "My wireless earbuds survive firmware updates, rainstorms and the washing "
+    "machine — but not the 40 seconds it takes me to walk to the kitchen."
 )
 
 os.makedirs("/output", exist_ok=True)
